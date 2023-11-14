@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Studio</title>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+     <!-- Lightbox CSS -->
+     <link rel="stylesheet" href="dist/css/lightbox.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Roboto', sans-serif;
+    }
+</style>
+
+<style>
+    
+    .carousel {
+        margin: auto;
+        max-width: 600px; 
+    }
+
+
+    .rounded-img {
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+  
+    .rounded-img img {
+        max-height: 300px; 
+        width: 100%;
+        object-fit: cover; 
+    }
+</style>
+
+   
+</head>
+
+
+<body>
+
+    <!-- Inside the <nav> section-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">
+        <img src="images/logo.png" height="30">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+    
+</body>
+
+
+    <!-- Header Section -->
+    <header>
+        <!-- Big Image -->
+        <img src="images/img1.jpg" alt="Furniture Studio" class="img-fluid">
+
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="mx-4">We make every home special.</h1>
+                    <p class="mx-4">Welcome to our furniture studio. We have 15+years of expertise in interior design. Therefore you can rely on quality of all our products and services.</p>
+                </div>
+            </div>
+        </div>
+       
+    </header>
+
+<section>
+<!-- Three Columns -->
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <!-- Column 1 -->
+        <div class="col-md-3">
+            <h2 class="text-center">Quality</h2>
+            <p class="text-center">All our products offer the highest quality on the market.</p>
+        </div>
+
+        <!-- Column 2 -->
+        <div class="col-md-3">
+            <h2 class="text-center">Top-notch design</h2>
+            <p class="text-center" > All the pieces are unique and only have been produced once.</p>
+        </div>
+
+        <!-- Column 3 -->
+        <div class="col-md-3">
+            <h2 class="text-center">Your plan</h2>
+            <p class="text-center">All the designs are based on your preferences.</p>
+        </div>
+    </div>
+</div>
+
+
+</section>
+    <!-- Carousel Section -->
+
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="rounded-img">
+                <img src="images/img2.jpg" class="d-block w-100" alt="Slide 1">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="rounded-img">
+                <img src="images/img3.jpg" class="d-block w-100" alt="Slide 2">
+            </div>
+        </div>
+      
+    </div>
+
+    <!-- Controls -->
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+      
+    </ol>
+</div>
+    
+    
+    </section>
+
+    <!-- Descriptive Text Section -->
+    <section class="mb-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Our Beautiful Furniture</h2>
+                    <p>Our furniture pieces are from unique designers around the world. All of them have their own style and can tailor the furniture for your need. Explore our stunning collection of handcrafted furniture designed to enhance your living space.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+
+<!-- Lightbox Section -->
+<section>
+    <div class="container">
+        <div class="row justify-content-center">
+            <!-- Image 1 -->
+            <div class="col-md-6 text-center">
+                <a href="images/img4.jpg" data-lightbox="BlueChair" data-title="Blue Chair">
+                    <img src="images/img4thumb.jpg" alt="Blue Chair Thumbnail" class="img-fluid rounded-circle">
+                </a>
+            </div>
+
+            <!-- Image 2 -->
+            <div class="col-md-6 text-center">
+                <a href="images/img5.jpg" data-lightbox="BlueTable" data-title="Blue Table">
+                    <img src="images/img5thumb.jpg" alt="Blue Table Thumbnail" class="img-fluid rounded-circle">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+   <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+<!-- Bootstrap JS and Popper.js scripts -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+    <!-- Lightbox JS -->
+    <script src="dist/js/lightbox.js"></script>
+
+ 
+</body>
+</html>

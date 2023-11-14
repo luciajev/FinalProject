@@ -1,0 +1,41 @@
+// SASS variables for fonts
+$title-font: 'Roboto', sans-serif;
+$text-font: 'Open Sans', sans-serif;
+
+// SASS variables for colors
+$primary-color: #3498db;
+$secondary-color: #e4e4e4;
+
+// SASS variables for spacing
+$spacing-unit: 8px;
+$container-max-width: 1200px;
+$border-radius: 4px;
+
+
+body {
+    font-family: $text-font;
+}
+
+h1, h2  {
+    font-family: $title-font;
+    color: $primary-color;
+    text-transform: capitalize;
+}
+
+header {
+    background-color: $secondary-color;
+}
+
+
+.some-element {
+    color: $primary-color;
+    padding: $spacing-unit;
+    border-radius: $border-radius;
+}
+
+.container {
+    max-width: $container-max-width;
+    margin: 0 auto;
+}
+
+

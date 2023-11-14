@@ -1,0 +1,23 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif;
+  color: #3498db;
+}
+
+header {
+  background-color: #e4e4e4;
+}
+
+.some-element {
+  color: #3498db;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}/*# sourceMappingURL=styles.css.map */
